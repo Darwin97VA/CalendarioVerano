@@ -1,0 +1,47 @@
+td span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+td {
+  position: relative;
+}
+.prueba {
+  z-index: 100;
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.holax::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  animation-name: salto;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  z-index: 10;
+}
+@keyframes salto {
+  0% {
+    padding: 0px;
+    background: #fff;
+  }
+  40% {
+    padding: 3px;
+  }
+  100% {
+    padding: 1px;
+    background: #fff;
+  }
+}

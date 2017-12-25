@@ -1,0 +1,40 @@
+.superContenedor {
+  width: 204px;
+  overflow: hidden;
+  height: 255px;
+  position: relative;
+  margin: auto;
+}
+.contieneCalendario {
+  position: absolute;
+  width: 10000vw;
+  height: 185px;
+  top: 0;
+  left: 0 /*-208px	-416*/;
+}
+.calendario {
+  width: 100%;
+}
+table {
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #00a8e8;
+  color: #fff;
+  border-radius: 5px;
+  width: 204px;
+  height: 185px;
+  display: inline-block;
+  float: left;
+}
+td {
+  padding: 7.6px;
+}
+[colspan="5"] {
+  font-size: 15px;
+}
+[class*="icon-"] {
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #00648a;
+  cursor: pointer;
+}

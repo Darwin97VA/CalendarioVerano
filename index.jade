@@ -1,0 +1,288 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Calendario
+    link(rel='stylesheet', href='css/estilos.css')
+    link(rel='stylesheet', href='css/flechas.css')
+  body
+    #superContenedor.superContenedor
+      #contieneCalendario.contieneCalendario
+        #calendario.calendario
+          table#Enero.Enero
+            thead
+              tr
+                th  
+                th(colspan='5') Enero
+                th
+                  span#icon-der1.icon-der.icon-der1.flechita(onclick='derA()')
+              tr
+                th#e_Dom.Dom.e_Dom Dom
+                th#e_Lun.Lun.e_Lun Lun
+                th#e_Mar.Mar.e_Mar Mar
+                th#e_Mie.Mie.e_Mie Mie
+                th#e_Jue.Jue.e_Jue Jue
+                th#e_Vie.Vie.e_Vie Vie
+                th#e_Sab.Sab.e_Sab Sab
+            tbody
+              tr
+                td#e_d_31.e_d_31
+                  span 31
+                td#e_1.e_1
+                  span 1
+                td#e_2.e_2
+                  span 2
+                td#e_3.e_3
+                  span 3
+                td#e_4.e_4
+                  span 4
+                td#e_5.e_5
+                  span 5
+                td#e_6.e_6
+                  span 6
+              tr
+                td#e_7.e_7
+                  span 7
+                td#e_8.e_8
+                  span 8
+                td#e_9.e_9
+                  span 9
+                td#e_10.e_10
+                  span 10
+                td#e_11.e_11
+                  span 11
+                td#e_12.e_12
+                  span 12
+                td#e_13.e_13
+                  span 13
+              tr
+                td#e_14.e_14
+                  span 14
+                td#e_15.e_15
+                  span 15
+                td#e_16.e_16
+                  span 16
+                td#e_17.e_17
+                  span 17
+                td#e_18.e_18
+                  span 18
+                td#e_19.e_19
+                  span 19
+                td#e_20.e_20
+                  span 20
+              tr
+                td#e_21.e_21
+                  span 21
+                td#e_22.e_22
+                  span 22
+                td#e_23.e_23
+                  span 23
+                td#e_24.e_24
+                  span 24
+                td#e_25.e_25
+                  span 25
+                td#e_26.e_26
+                  span 26
+                td#e_27.e_27
+                  span 27
+              tr
+                td#e_28.e_28
+                  span 28
+                td#e_29.e_29
+                  span 29
+                td#e_30.e_30
+                  span 30
+                td#e_31.e_31
+                  span 31
+                td#e_32.e_32
+                  span 1
+                td#e_33.e_33
+                  span 2
+                td#e_34.e_34
+                  span 3
+          table#Febrero.Febrero
+            thead
+              tr
+                th
+                  span#icon-izq1.icon-izq.icon-izq1.flechita(onclick='izqA()')  
+                th(colspan='5') Febrero
+                th
+                  span#icon-der2.icon-der.icon-der2.flechita(onclick='derB()')
+              tr
+                th#f_Dom.Dom.f_Dom Dom
+                th#f_Lun.Lun.f_Lun Lun
+                th#f_Mar.Mar.f_Mar Mar
+                th#f_Mie.Mie.f_Mie Mie
+                th#f_Jue.Jue.f_Jue Jue
+                th#f_Vie.Vie.f_Vie Vie
+                th#f_Sab.Sab.f_Sab Sab
+            tbody
+              tr
+                td#f_e_28.f_e_28
+                  span 28
+                td#f_e_29.f_e_29
+                  span 29
+                td#f_e_30.f_e_30
+                  span 30
+                td#f_e_31.f_e_31
+                  span 31
+                td#f_1.f_1
+                  span 1
+                td#f_2.f_2
+                  span 2
+                td#f_3.f_3
+                  span 3
+              tr
+                td#f_4.f_4
+                  span 4
+                td#f_5.f_5
+                  span 5
+                td#f_6.f_6
+                  span 6
+                td#f_7.f_7
+                  span 7
+                td#f_8.f_8
+                  span 8
+                td#f_9.f_9
+                  span 9
+                td#f_10.f_10
+                  span 10
+              tr
+                td#f_11.f_11
+                  span 11
+                td#f_12.f_12
+                  span 12
+                td#f_13.f_13
+                  span 13
+                td#f_14.f_14
+                  span 14
+                td#f_15.f_15
+                  span 15
+                td#f_16.f_16
+                  span 16
+                td#f_17.f_17
+                  span 17
+              tr
+                td#f_18.f_18
+                  span 18
+                td#f_19.f_19
+                  span 19
+                td#f_20.f_20
+                  span 20
+                td#f_21.f_21
+                  span 21
+                td#f_22.f_22
+                  span 22
+                td#f_23.f_23
+                  span 23
+                td#f_24.f_24
+                  span 24
+              tr
+                td#f_25.f_25
+                  span 25
+                td#f_26.f_26
+                  span 26
+                td#f_27.f_27
+                  span 27
+                td#f_28.f_28
+                  span 28
+                td#f_m_1.f_m_1
+                  span 1
+                td#f_m_2.f_m_2
+                  span 2
+                td#f_m_3.f_m_3
+                  span 3
+          table#Marzo.Marzo
+            thead
+              tr
+                th
+                  span#icon-izq2.icon-izq.icon-izq2.flechita(onclick='izqB()')
+                th(colspan='5') Marzo
+                th
+                  span
+              tr
+                th#m_Dom.Dom.m_Dom Dom
+                th#m_Lun.Lun.m_Lun Lun
+                th#m_Mar.Mar.m_Mar Mar
+                th#m_Mie.Mie.m_Mie Mie
+                th#m_Jue.Jue.m_Jue Jue
+                th#m_Vie.Vie.m_Vie Vie
+                th#m_Sab.Sab.m_Sab Sab
+            tbody
+              tr
+                td#m_f_25.m_f_25
+                  span 25
+                td#m_f_26.m_f_26
+                  span 26
+                td#m_f_27.m_f_27
+                  span 27
+                td#m_f_28.m_f_28
+                  span 28
+                td#m_1.m_1
+                  span 1
+                td#m_2.m_2
+                  span 2
+                td#m_3.m_3
+                  span 3
+              tr
+                td#m_4.m_4
+                  span 4
+                td#m_5.m_5
+                  span 5
+                td#m_6.m_6
+                  span 6
+                td#m_7.m_7
+                  span 7
+                td#m_8.m_8
+                  span 8
+                td#m_9.m_9
+                  span 9
+                td#m_10.m_10
+                  span 10 
+              tr
+                td#m_11.m_11
+                  span 11
+                td#m_12.m_12
+                  span 12
+                td#m_13.m_13
+                  span 13
+                td#m_14.m_14
+                  span 14
+                td#m_15.m_15
+                  span 15
+                td#m_16.m_16
+                  span 16
+                td#m_17.m_17
+                  span 17
+              tr
+                td#m_18.m_18
+                  span 18
+                td#m_19.m_19
+                  span 19
+                td#m_20.m_20
+                  span 20
+                td#m_21.m_21
+                  span 21
+                td#m_22.m_22
+                  span 22
+                td#m_23.m_23
+                  span 23
+                td#m_24.m_24
+                  span 24
+              tr
+                td#m_25.m_25
+                  span 25
+                td#m_26.m_26
+                  span 26
+                td#m_27.m_27
+                  span 27
+                td#m_28.m_28
+                  span 28
+                td#m_29.m_29
+                  span 29
+                td#m_30.m_30
+                  span 30
+                td#m_31.m_31
+                  span 31
+    script(src='js/calendario.js')
+    script(src='js/calendario2.js')

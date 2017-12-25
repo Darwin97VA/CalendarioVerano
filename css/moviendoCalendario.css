@@ -1,0 +1,52 @@
+.derechaMoverA {
+  animation-name: irDerechaA;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+.derechaMoverB {
+  animation-name: irDerechaB;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+.izquierdaMoverA {
+  animation-name: irIzquierdaA;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+.izquierdaMoverB {
+  animation-name: irIzquierdaB;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes irDerechaA {
+  from {
+    left: 0;
+  }
+  to {
+    left: -204px;
+  }
+}
+@keyframes irDerechaB {
+  from {
+    left: -204px;
+  }
+  to {
+    left: -408px;
+  }
+}
+@keyframes irIzquierdaA {
+  from {
+    left: -204px;
+  }
+  to {
+    left: 0;
+  }
+}
+@keyframes irIzquierdaB {
+  from {
+    left: -408px;
+  }
+  to {
+    left: -204px;
+  }
+}
